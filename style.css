@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@font-face {
+  font-family: "conthrax";
+  src: url("/assets/conthrax-sb.ttf");
+}
+
+@font-face {
+  font-family: "gos";
+  src: url("/assets/Game\ Of\ Squids.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aliceblue;
+  background: url(assets/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+.navbar-brand h5 {
+  font-family: "conthrax";
+}
+.nav-link {
+  font-weight: 600;
+}
+.navbar-toggler {
+  color: transparent;
+}
+.header-main {
+  margin-top: 100px;
+}
+.header-main h1 {
+  font-family: "conthrax";
+  font-size: 60px;
+  color: #fff;
+}
+.header-main p {
+  font-weight: 500;
+  color: #fff;
+  max-width: 600px;
+}
+.main-products .col-lg {
+  background-color: rgb(20, 20, 39);
+  border: 3px solid rgb(60, 151, 255);
+  color: #fff;
+  padding: 50px;
+  opacity: 0.9;
+  box-shadow: 0 0 0 5px rgb(20, 20, 39);
+}
+.main-products .col-lg * {
+  margin: 0;
+}
+.main-products .col-lg h4 {
+  color: rgb(60, 151, 255);
+  font-family: "conthrax";
+  font-size: 50px;
+}
+.main-products .col-lg p {
+  font-family: "conthrax";
+}
+.cara-pemesanan {
+  margin-top: 80px;
+}
+.cara-pemesanan h2 {
+  font-family: "conthrax";
+  font-size: 50px;
+}
+.cara-pemesanan p {
+  font-size: 20px;
+  font-weight: 700;
+}
+.cara-pemesanan ul li {
+  list-style-type: none;
+  font-size: 20px;
+  position: relative;
+  right: 32px;
+}
+.garis {
+  background-color: #fff;
+  width: 3px;
+  height: 240px;
+}
+.main-qr h4 {
+  font-family: "conthrax";
+  text-align: center;
+  color: rgb(60, 151, 255);
+  text-shadow: 0 0 4px #000;
+}
+.qrcode {
+  width: 200px;
+  margin-bottom: 10px;
+}
+.garis-bawah {
+  width: 100%;
+  height: 3px;
+  background-color: rgb(60, 151, 255);
+  position: relative;
+  top: -20px;
+  width: 80%;
+  float: right;
+}
+.main-footer {
+  margin-top: 50px;
+}
+.main-footer img {
+  max-width: 150px;
+}
+#main-footer-logo {
+  border: 4px solid #fff;
+  margin: 0;
+  padding: 28px 0;
+}
+.main-footer h2 {
+  font-family: "conthrax";
+  font-size: 50px;
+}
+.main-footer .text-footer {
+  font-size: 20px;
+}
+footer {
+  margin-top: 100px;
+}
+.menu-footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+.menu-footer ul li {
+  list-style-type: none;
+  float: left;
+  font-weight: 600;
+}
+.end-footer {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 988px) {
+  .garisall {
+    display: none;
+  }
+  .info-footer {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  footer {
+    margin-top: 20px;
+  }
+  .menu-footer ul {
+    flex-direction: column;
+    margin-left: -28px;
+  }
+}
